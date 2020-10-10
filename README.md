@@ -1,5 +1,5 @@
 # twitter-sentiment-analysis
-An example of sentiment analysis on Twitter using the labels "postive" and "negative".
+An example of sentiment analysis on Twitter's tweets using the labels "postive" and "negative".
 
 To complete the analysis exploits two python libraries:
 
