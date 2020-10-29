@@ -1,0 +1,122 @@
+/* @import url(http://fonts.googleapis.com/css?family=Ubuntu); */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, sans-serif;
+}
+
+div.predict {
+    position: relative;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.predict.submit {
+    position: relative;
+    margin-left: 30%;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: #5993bb;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #77b6e2;
+}
+
+a.button,
+input[type="submit"] {
+    color: #fff;
+    background: #5993bb;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 0;
+    cursor: pointer;
+}
+
+a.button.light {
+    color: #666;
+    background: #ededed;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+form p label,
+form p input {
+    align-content: center;
+    clear: both;
+}
+
+form p label {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+
+form p input {
+    align-content: center;
+    width: 60%;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border: 0;
+    background: #efefef;
+    color: #666;
+    border-radius: 4px;
+}
+
+#header {
+    padding: 10px 100px;
+    font-size: 18px;
+    overflow: auto;
+}
+
+#subheader {
+    background: #ececec;
+    color: #444;
+    padding: 15px 100px;
+    overflow: auto;
+}
+
+#header .logo {
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    color: #333;
+    font-size: 22px;
+    margin-right: 10%;
+}
+
+#subheader .cart {
+    float: right;
+    padding-top: 4px;
+}
+
+#content {
+    padding: 0 100px;
+    overflow: hidden;
+}
+
+#main {
+    float: left;
+    width: 96%;
+    margin-right: -220px;
+    overflow: hidden;
+}
