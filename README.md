@@ -1,30 +1,30 @@
 # twitter-sentiment-analysis
-An example of sentiment analysis on Twitter's tweets using the labels "postive" and "negative".
+An example of sentiment analysis on the twitter-samples dataset using the Logistic Regression Classification Algorithm.
 
-To complete the analysis exploits two python libraries:
+The two python libraries:
 
-- [matplotlib](http://www.matplotlib.org/), which is python library for plotting graphics
-- [Stanford Natural Language Toolkit](http://www.nltk.org/), which provides the natural languages functionalities to build up classifier.
+- [matplotlib](http://www.matplotlib.org/) is a python library for plotting graphics
+- [Stanford Natural Language Toolkit](http://www.nltk.org/) provides the natural language functionalities to build up a classifier.
 
 # Dataset
-The dataset can be gotten with nltk.download('twitter-samples')
+The sample dataset from NLTK is separated into positive and negative tweets. It contains 5000 positive tweets and 5000 negative tweets exactly. The intention is to have a balanced dataset.
 
 # Pre Processing
 
-The preprocessing scripts modifies the tweets content in order to make possible the further analysis. 
+The preprocessing scripts modify the tweet's content to make possible further analysis. 
 
-- Any url is removed and substituted with the with a space " "
+- Any URL is removed and substituted with a space " "
 - Any @Username is removed
 - Any not alphanumeric symbol is removed 
 - Hashtags are substituted with the corresponding word
-- The emoticon expressing sentiments are kept
+- The emoticon expressing sentiments is kept
 - words are stemmed using the nltk PorterStemmer
 
 # Feature Extractor
 The preprocessing steps can be automated using the process tweets and build freqs module
-Before building a classifier we need to extract all the features (word) contained in the tweet text.
+Before building a classifier we need to extract all the features (words) contained in the tweet text.
 
-Moreover, is necessary to remove any stop words. 
-I also stripped out punctuation, digits, and any symbols that might be still in the tweet text.
+Moreover, it is necessary to remove stop words. 
+I also stripped out punctuation, digits, and any symbols that might be in the tweet text.
 
-The stopwords can be downloaded with the nltk library using nltk.download('stopwords').
+The stopwords can be downloaded with the nltk library using nltk. download('stopwords').
